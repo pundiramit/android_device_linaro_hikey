@@ -15,6 +15,7 @@
 #
 
 PRODUCT_COPY_FILES +=	$(LOCAL_PATH)/fstab.hikey960:root/fstab.hikey960 \
+			$(LOCAL_PATH)/swrendering.rc:system/etc/init/swrendering.rc \
 			device/linaro/hikey/init.common.rc:root/init.hikey960.rc \
 			device/linaro/hikey/init.common.usb.rc:root/init.hikey960.usb.rc \
 			device/linaro/hikey/ueventd.common.rc:root/ueventd.hikey960.rc \

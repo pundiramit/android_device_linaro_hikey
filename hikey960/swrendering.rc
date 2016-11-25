@@ -1,0 +1,3 @@
+# HACK to fallback to software GLES emulation
+    setprop ro.kernel.qemu 1
+    setprop ro.kernel.qemu.gles 0
