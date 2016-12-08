@@ -1,5 +1,6 @@
 include device/linaro/hikey/BoardConfigCommon.mk
 
+TARGET_NO_KERNEL := false
 TARGET_BOARD_PLATFORM := hikey
 ifeq ($(TARGET_KERNEL_USE_4_1), true)
 BOARD_KERNEL_CMDLINE := console=ttyAMA3,115200 androidboot.console=ttyAMA3 androidboot.hardware=hikey firmware_class.path=/system/etc/firmware efi=noruntime
